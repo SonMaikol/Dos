@@ -1,0 +1,460 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Segunda Aplicacion</title>
+<!--grupo CSS-->
+<link rel="stylesheet" href="css/jquery.mobile.icons-1.4.5.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css"/>
+<link rel="stylesheet" href="css/mitema.css" />
+<!--grupo JavaScript-->
+<script src="js/jquery-1.11.2.min.js"></script>
+<script src="js/jquery.mobile-1.4.5.min.js"></script>
+<script src="js/acciones.js" type="text/javascript"></script>
+<script src="phonegap.js" type="text/javascript"></script>
+</head>
+
+<!-------------------------------------------------pagina principal------------------------------------------------------------------------------------------------------------------------------------------>
+
+<body>
+
+<div data-role="page" id="Principal" data-theme="b">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+<h1> Batalla del 5 de mayo de 1862 </h1>
+</div>
+<!-------------------------------------------------boton 1------------------------------------------------------------------------------------------------------------------------------------------>
+<div>
+
+<ul data-role="listview" data-theme="b" class="ui-listview ui-group-theme-b">
+<li class="ui-first-child ui-last-child">
+<a href="#PaginaMI" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+<h2> Tema I</h2>
+<p>ANTECEDENTES Y CONSECUENCIAS DE LA BATALLA</p>
+</a>
+</li>
+
+<!-------------------------------------------------boton 2------------------------------------------------------------------------------------------------------------------------------------------>
+
+<li class="ui-first-child ui-last-child">
+<a href="#PaginaMII" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+<h2> Tema II</h2>
+<p>LUGAR DONDE FUE DESARROLLADA LA BATALLA</p>
+</a>
+</li>
+
+<!-------------------------------------------------boton 3------------------------------------------------------------------------------------------------------------------------------------------>
+
+<li class="ui-first-child ui-last-child">
+<a href="#PaginaMIII" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+<h2> Tema III</h2>
+<p>LA BATALLA</p>
+</a>
+</li>
+</ul>
+</div>
+
+
+
+<div data-role="footer" align="center" data-theme="a">
+<div>
+<img src="imagenes/batalla.jpg" width="100" height="100"
+</div>
+<div>
+<h4>Aplicacion Dos</h4>
+<h4>Miguel Naranjo Flores</h4>
+</div>
+</div>
+</div>
+</div>
+<!-------------------------------------------------pagina principal del boton 1------------------------------------------------------------------------------------------------------------------------------------------>
+
+<div data-role="page" id="PaginaMI" data-add-back-btn="true" data-theme="a">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+<h1>TEMA I</h1>
+<h2>ANTECEDENTES Y CONSECUENCIAS DE LA BATALLA</h2>
+</div>
+
+<!-------------------------------------------------introduccion BOTON 1------------------------------------------------------------------------------------------------------------------------------------------>
+
+<div data-role="main" class="ui-content">
+<div data-role="collapsible" data-content-theme="false">
+<h1> INTRODUCCION </h1>
+<div>
+<p> A continuacion se presentan dos botones con los cuales podran seleccionar la informacion especifica de acuerdo a lo que desea consultar.
+<br>
+<br>
+En lo que respecta al boton de antecedentes de la batalla del 5 de mayo; hace referencia a todos los sucesos que pasaron antes de que ocurriera tal batalla;<br>
+en ella se hace mencion del porque ocurrio la batalla; el por que de dicha batalla, el como ocurrio etc.<br>
+y en el boton de consecuencias de la batalla del 5 de mayo; habla de lo que occurrio despues.<br>
+Que ocurrio despues de que acabara la batalla. Tambien nos hace mencion de cual fue el saldo de los heridos, cuantos fueron los muertos, e inclusive hace mencion del numero de personas desaparecidas<br>
+</div>
+<div>
+<img src="imagenes/antes.jpg" width="100%" height="100%"> </div>
+</div>
+</div>
+<div>  
+
+<!-------------------------------------------------boton 1 ANTECEDENTES------------------------------------------------------------------------------------------------------------------------------------------>
+
+<ul data-role="listview" data-theme="b" class="ui-listview ui-group-theme-b">
+<li class="ui-first-child ui-last-child">
+<a href="#PaginaI" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+<h2> Tema I</h2>
+<p>ANTECEDENTES DE LA BATALLA</p>
+</a>
+</li>
+
+<!-------------------------------------------------boton 2 CONSECUENCIAS------------------------------------------------------------------------------------------------------------------------------------------>
+
+<li class="ui-first-child ui-last-child">
+<a href="#PaginaII" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+<h2> Tema II</h2>
+<p>CONSECUENCIAS DE LA BATALLA</p>
+</a>
+</li>
+
+</ul>
+</div>
+
+
+<div data-role="footer" data-theme="a">
+<h4>Aplicacion Dos</h4>
+<h4> Miguel Naranjo Flores</h4>
+</div>
+</div>
+</div>
+
+<!-------------------------------------------------informacion de los antecedentes------------------------------------------------------------------------------------------------------------------------------------------>
+
+<div data-role="page" id="PaginaI" data-add-back-btn="true" data-theme="a">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+<h1>ANTECEDENTES</h1>
+</div>
+
+<div data-role="main" class="ui-content">
+<h1><center> ANTECEDENTES DE LA BATALLA </center></h1>
+<div>
+<p>En 1861, despues de la larga lucha conocida como la "Guerra de Tres anos", Mexico estaba en pesimas condiciones economicas y politicas.<br>
+ Tenia una enorme deuda con Espana, Francia e Inglaterra en la que se invertia casi todo el dinero y no se podian atender las necesidades basicas de la poblacion.<br>
+Por ello, el Presidente Benito Juarez, declaro una moratoria que duraria dos anos, o sea que acordo no pagarles durante este tiempo para que Mexico pudiera reponerse.<br>
+Esta decision, no gusto a las naciones extranjeras y fue el pretexto para que pensaran en la intervencion del pais. Ademas aprovecharon el momento, pues los conservadores mexicanos habian<br>
+recurrido a las cortes europeas para traer a un principe extranjero que pudiera gobernar a Mexico.<br>
+Asi, en octubre de 1861, Espana, Inglaterra y Francia se reunieron y decidieron invadir el pais, para ello formaron una Alianza Militar Tripartita, a pesar de que hablaban de respetar la integridad nacional<br>
+y el gobierno que se habia formado.<br>
+En abril de 1862 la alianza tripartita se rompio debido a que Espana e Inglaterra se dieron cuenta de que Francia tenia un interes soterrado, quien  queria derrocar al gobierno republicano de Mexico para establecer una monarquia favorable<br>
+a su politica colonial,
+Los representantes espanol (Prim) e ingles (Charles Wyke) negociaron con el gobierno juarista por separado y en ultima instancia aceptaron las propuestas de moratoria del gobierno mexicano, <br>
+y reembarcaron a sus tropas.<br>La posicion de Francia, en contraste, 
+ fue la de exigir el pago inmediato de la deuda, que incluia un cobro exagerado por parte de la Casa Jecker por los destrozos causados durante la Guerra de Reforma, y tener control total y <br>
+absoluto de las aduanas, asi como intervencion directa en la politica economica del pais.
+A finales de abril, Lorencez desconocio los Tratados de Soledad y se puso en marcha, junto con sus efectivos, hacia Puebla, con el fin ultimo<br> de conquistar la Ciudad de Mexico.
+Al conocer sobre el avance, el general Alejandro Constante Jimenez al mando de 2000 soldados se unio al general Zaragoza, que partio de Puebla con 4000 soldados para salir al encuentro de los franceses.
+
+
+</div>
+
+
+<div data-role="content" align="center">
+<div>
+<img src="imagenes/antecedentes.jpg" width="100%" height="100%"></div>
+</div>
+
+
+<div data-role="footer" data-theme="a">
+<h4>Aplicacion Dos</h4>
+<h4> Miguel Naranjo Flores</h4>
+</div>
+</div>
+</div>
+
+<!-------------------------------------------------informacion de las CONSECUENCIAS------------------------------------------------------------------------------------------------------------------------------------------>
+<div data-role="page" id="PaginaII" data-add-back-btn="true" data-theme="a">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+<h1>CONSECUENCIAS</h1>
+</div>
+
+<div data-role="main" class="ui-content">
+<h1><center> CONSECUENCIAS DE LA BATALLA </center></h1>
+<div>
+<p>El saldo final de la batalla fue de 476 muertos y 345 heridos del lado frances, asi como 83 muertos, cerca de 131 heridos y 12 desaparecidos para el Ejercito de Oriente.<br>
+A las 7 de la noche del dia 6 de mayo arribaron a Puebla el general Antillon y sus tropas; Zaragoza esperaba un nuevo ataque de Lorencez, pero este, el dia 8 de mayo, dispuso la retirada<br>
+hasta San Agustin del Palmar, siendo "saludado" por la artilleria republicana y la Banda de Guerra de los Carabineros, quienes tocaron "Escape".<br>
+Los historiadores concuerdan en senalar el talento de Zaragoza como organizador y motivador de sus tropas.<br>
+Antes de la batalla, las arengo diciendoles que si bien los franceses eran considerados "los primeros soldados del mundo", ellos eran "los primeros hijos de Mexico", lo cual tuvo tal efecto en la<br>
+moral de sus soldados que su determinacion por defender la plaza ante los invasores compenso sus carencias materiales y de disciplina.<br>
+Ademas, no temio tomar decisiones arriesgadas, como prescindir de los 2000 efectivos que O'Horan se llevo para batir a Leonardo Marquez, y en el curso de la batalla actuo con serenidad y efectividad.<br>
+Se le considera heroe nacional y en su honor, tiempo despues, Juarez renombro a la ciudad como Heroica Puebla de Zaragoza.<br>
+Cuando en Francia se supo la derrota del ejercito frances, origino dolor, histeria y llanto, mas aun cuando llegaron las historias de que los indigenas zacapoaxtlas (que en realidad se trataba del sexto Batallon de Guardia Nacional del Estado de Puebla )<br>
+habian atacado con machetes, arma desconocida en Europa, se comian los cadaveres.<br>
+El resto de Europa, con incredulidad y asombro, comentaban como el ejercito frances, invicto desde la Batalla de Waterloo en 1815, habia sido derrotado en Mexico, un ejercito considerado el mejor del mundo,<br>
+el vencedor en la conquista de Argelia y de la Indochina francesa (hoy Vietnam), habia sido derrotado por un pais tropical, utilizando tacticas de guerra desconocidas en Europa, como era la Guerra de Guerrillas.
+
+</div>
+
+
+<div data-role="content" align="center">
+<div>
+<img src="imagenes/consecuencias.jpg" width="100%" height="100%"></div>
+</div>
+
+<div data-role="footer" data-theme="a">
+<h4>Aplicacion Dos</h4>
+<h4> Miguel Naranjo Flores</h4>
+</div>
+</div>
+</div>
+
+<!-------------------------------------------------pagina principal del boton 2------------------------------------------------------------------------------------------------------------------------------------------>
+
+<div data-role="page" id="PaginaMII" data-add-back-btn="true" data-theme="a">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+<h1>TEMA II</h1>
+<h2>LUGAR DONDE FUE DESARROLLADA LA BATALLA</h2>
+</div>
+
+<!-------------------------------------------------introduccion BOTON 2------------------------------------------------------------------------------------------------------------------------------------------>
+
+<div data-role="main" class="ui-content">
+<div data-role="collapsible" data-content-theme="false">
+<h1> INTRODUCCION </h1>
+<div>
+<p> A continuacion se presentan dos botones con los cuales podran seleccionar la informacion especifica de acuerdo a lo que desea consultar.
+<br>
+<br>
+La Batalla de Puebla tuvo lugar el 5 de mayo de 1862 cerca de la ciudad de Puebla (Mexico), en el ataque y defensa del Fuerte de Loreto y del Fuerte de Guadalupe,<br> 
+durante la invasion francesa de Mexico.<br>
+Fue una importante victoria mexicana con resonancia global, pues vencio al ejercito mas experimentado y reputado de la epoca y se conmemora en Mexico con la fiesta del Cinco de Mayo.
+</div>
+<div>
+<img src="imagenes/pelea.jpg" width="100%" height="100%"> </div>
+</div>
+</div>
+<div>  
+
+<!-------------------------------------------------boton 1 Batalla de Atlixco ------------------------------------------------------------------------------------------------------------------------------------------>
+
+<ul data-role="listview" data-theme="b" class="ui-listview ui-group-theme-b">
+<li class="ui-first-child ui-last-child">
+<a href="#PaginaIII" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+<h2> Tema I</h2>
+<p>ATLIXCO</p>
+</a>
+</li>
+
+<!-------------------------------------------------boton 2 Batalla de Puebla------------------------------------------------------------------------------------------------------------------------------------------>
+
+<li class="ui-first-child ui-last-child">
+<a href="#PaginaIV" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+<h2> Tema II</h2>
+<p>PUEBLA</p>
+</a>
+</li>
+
+</ul>
+</div>
+
+
+<div data-role="footer" data-theme="a">
+<h4>Aplicacion Dos</h4>
+<h4> Miguel Naranjo Flores</h4>
+</div>
+</div>
+</div>
+
+<!-------------------------------------------------informacion de la Batalla de Atlixco------------------------------------------------------------------------------------------------------------------------------------------>
+
+<div data-role="page" id="PaginaIII" data-add-back-btn="true" data-theme="a">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+<h1>BATALLA DEL 4 DE MAYO</h1>
+</div>
+
+<div data-role="main" class="ui-content">
+<h1><center> BATALLA DE ATLIXCO </center></h1>
+<div>
+<p>La Batalla de Atlixco tuvo lugar el 4 de mayo de 1862 en las inmediaciones de la Hacienda de las Traperas en Atlixco en el estado de Puebla, Mexico,<br>
+entre elementos del ejercito mexicano de la republica, al mando de los generales Antonio Carvajaly Tomas O'Horan contra las tropas al servicio<br>
+del Segundo Imperio Mexicano comandadas por el general Jose Maria Cobosy de Leonardo Marquez, compuesta de soldados conservadores mexicanos en apoyo de envio<br>
+de refuerzos para llevar a cabo la Batalla de Puebla, durante la Segunda Intervencion Francesa en Mexico.<br>
+Esta batalla culmino con una victoria republicana y debido a esto el grupo conservador de Marquez no pudo lograr su objetivo de auxiliar a las tropas francesas<br>
+del Conde de Lorencez en la batalla de Puebla.
+
+</div>
+
+
+<div data-role="content" align="center">
+<div>
+<img src="imagenes/atlixco.jpg" width="100%" height="100%"></div>
+</div>
+
+
+<div data-role="footer" data-theme="a">
+<h4>Aplicacion Dos</h4>
+<h4> Miguel Naranjo Flores</h4>
+</div>
+</div>
+</div>
+
+<!-------------------------------------------------informacion de la Batalla de Puebla------------------------------------------------------------------------------------------------------------------------------------------>
+<div data-role="page" id="PaginaIV" data-add-back-btn="true" data-theme="a">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+<h1>BATALLA DEL 5 DE MAYO</h1>
+</div>
+
+<div data-role="main" class="ui-content">
+<h1><center> BATALLA DE PUEBLA </center></h1>
+<div>
+<p>En los fuertes de Loreto y Guadalupe, en Puebla, tuvo lugar un hecho historico: un pequeno ejercito mexicano derroto a los franceses, dando a los mexicanos un motivo para celebrar durante anos.<br>
+Este acontecimiento ocurrio el cinco de mayo de 1862, cuando el ejercito invasor frances fue abatido por un batallon mexicano en una proporcion de dos a uno.<br>
+Los fuertes donde ocurrieron tales batallas hoy pertenecen al Centro Civico Cinco de Mayo, y pueden ser visitados en las afueras de la ciudad.
+Aunque el ejercito mexicano fue finalmente derrotado, la Batalla de Puebla es un simbolo de unidad y patriotismo para los mexicanos.<br>
+Con esa victoria, Mexico le demostro al mundo que las naciones latinoamericanas eran autonomas y capaces de resistir los embates imperialistas que buscaban conquistar el mundo.<br>
+La celebracion del triunfo se lleva a cabo cada ano en todo Mexico e incluso en Estados Unidos (especialmente entre la comunidad chicana).
+
+</div>
+
+
+<div data-role="content" align="center">
+<div>
+<img src="imagenes/lugares.png" width="100%" height="100%"></div>
+</div>
+
+<div data-role="footer" data-theme="a">
+<h4>Aplicacion Dos</h4>
+<h4> Miguel Naranjo Flores</h4>
+</div>
+</div>
+</div>
+
+
+<!-------------------------------------------------pagina principal del boton 3------------------------------------------------------------------------------------------------------------------------------------------>
+
+<div data-role="page" id="PaginaMIII" data-add-back-btn="true" data-theme="a">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+<h1>TEMA III</h1>
+<h2> BATALLA DE PUEBLA Y SUS PERSONAJES PRINCIPALES </h2>
+</div>
+
+<!-------------------------------------------------introduccion BOTON 3------------------------------------------------------------------------------------------------------------------------------------------>
+
+<div data-role="main" class="ui-content">
+<div data-role="collapsible" data-content-theme="false">
+<h1> INTRODUCCION </h1>
+<div>
+<p> A continuacion se presentan dos botones con los cuales podran seleccionar la informacion especifica de acuerdo a lo que desea consultar.
+<br>
+<br>
+La Batalla de Puebla tuvo lugar el 5 de mayo de 1862 cerca de la ciudad de Puebla (Mexico), en el ataque y defensa del Fuerte de Loreto y del Fuerte de Guadalupe,<br> 
+durante la invasion francesa de Mexico.<br>
+Fue una importante victoria mexicana con resonancia global, pues vencio al ejercito mas experimentado y reputado de la epoca y se conmemora en Mexico con la fiesta del Cinco de Mayo.
+</div>
+<div>
+<img src="imagenes/combate.jpg" width="100%" height="100%"> </div>
+</div>
+</div>
+<div>  
+
+<!-------------------------------------------------boton 1 BATALLA DE PUEBLA ------------------------------------------------------------------------------------------------------------------------------------------>
+
+<ul data-role="listview" data-theme="b" class="ui-listview ui-group-theme-b">
+<li class="ui-first-child ui-last-child">
+<a href="#PaginaV" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+<h2> Tema I</h2>
+<p>BATALLA DE PUEBLA</p>
+</a>
+</li>
+
+<!-------------------------------------------------boton 2 PERSONAJES DE LA BATALLA------------------------------------------------------------------------------------------------------------------------------------------>
+
+<li class="ui-first-child ui-last-child">
+<a href="#PaginaVI" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+<h2> Tema II</h2>
+<p>PERSONAJES DE LA BATALLA</p>
+</a>
+</li>
+
+</ul>
+</div>
+
+
+<div data-role="footer" data-theme="a">
+<h4>Aplicacion Dos</h4>
+<h4> Miguel Naranjo Flores</h4>
+</div>
+</div>
+</div>
+
+<!-------------------------------------------------informacion de la Batalla de PUEBLA------------------------------------------------------------------------------------------------------------------------------------------>
+
+<div data-role="page" id="PaginaV" data-add-back-btn="true" data-theme="a">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+<h1>BATALLA DEL 4 DE MAYO</h1>
+</div>
+
+<div data-role="main" class="ui-content">
+<h1><center> BATALLA DE PUEBLA </center></h1>
+<div>
+<p>El 5 de mayo los invasores franceses bajo el mando del general frances Charles Ferdinand Latrille, Conde de Lorencez atacaron Puebla que era la ultima posibilidad de detener a los invasores antes de la Ciudad de Mexico y el control del pais. <br>
+Puebla estaba protegida por los fuertes de Loreto y Guadalupe en los que el General Ignacio  Zaragoza tenia casi 6 000 hombres con la orden de impedir el avance frances. <br>
+El asi llamado Ejercito Mexicano, tenia solo un tercio de militares entrenados, el resto eran reclutas y voluntarios animados por el deseo de servir al pais y no ser dominados por Francia; los generales Porfirio Diaz y Zaragoza tenian solo 32 anos pero mucha experiencia en la Guerra de Reforma. <br>
+Antes de entrar en combate el General Zaragoza se dirigio a sus tropas diciendo:
+Soldados, os habeis portado como heroes combatiendo por la Reforma. <br>
+Vuestros esfuerzos han sido siempre coronados por el exito. <br>
+Hoy vais a pelear por un objeto sagrado, vais a pelear por la Patria y yo os prometo que en la presente jornada conquistareis un dia de gloria. <br>
+Vuestros enemigos son los primeros soldados del mundo, pero vosotros sois los primeros hijos de Mexico. <br>
+Soldados, leo en vuestras frentes la victoria y la fe. VIVA LA INDEPENDENCIA NACIONAL, VIVA LA PATRIA<br>
+Tres veces los franceses asaltaron las posiciones mexicanas, sin lograr su objetivo y sufriendo numerosas perdidas. <br>
+Los contingentes de los generales Porfirio Diaz, Miguel Negrete, Felipe Berriozabal y  la caballeria del coronel Antonio Alvarez derrotaron al que en ese entonces era considerado el mejor ejercito del mundo.<br>
+La soberbia y falta de vision de Lorencez que subestimo a su bien motivado enemigo fueron determinantes en la derrota como tambien lo fueron la estrategia y el valor de los generales mexicanos.
+
+
+</div>
+
+
+<div data-role="content" align="center">
+<div>
+<img src="imagenes/atlixco.jpg" width="100%" height="100%"></div>
+</div>
+
+
+<div data-role="footer" data-theme="a">
+<h4>Aplicacion Dos</h4>
+<h4> Miguel Naranjo Flores</h4>
+</div>
+</div>
+</div>
+
+<!-------------------------------------------------informacion de lOS PERSONAJES DE LA BATALLA------------------------------------------------------------------------------------------------------------------------------------------>
+<div data-role="page" id="PaginaVI" data-add-back-btn="true" data-theme="a">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+<h1>BATALLA DEL 5 DE MAYO</h1>
+</div>
+
+<div data-role="main" class="ui-content">
+<h1><center> BATALLA DE PUEBLA </center></h1>
+<div>
+<p>En los fuertes de Loreto y Guadalupe, en Puebla, tuvo lugar un hecho historico: un pequeno ejercito mexicano derroto a los franceses, dando a los mexicanos un motivo para celebrar durante anos.<br>
+Este acontecimiento ocurrio el cinco de mayo de 1862, cuando el ejercito invasor frances fue abatido por un batallon mexicano en una proporcion de dos a uno.<br>
+Los fuertes donde ocurrieron tales batallas hoy pertenecen al Centro Civico Cinco de Mayo, y pueden ser visitados en las afueras de la ciudad.
+Aunque el ejercito mexicano fue finalmente derrotado, la Batalla de Puebla es un simbolo de unidad y patriotismo para los mexicanos.<br>
+Con esa victoria, Mexico le demostro al mundo que las naciones latinoamericanas eran autonomas y capaces de resistir los embates imperialistas que buscaban conquistar el mundo.<br>
+La celebracion del triunfo se lleva a cabo cada ano en todo Mexico e incluso en Estados Unidos (especialmente entre la comunidad chicana).
+
+</div>
+
+
+<div data-role="content" align="lefght">
+<div>
+<img src="imagenes/benito.png" width="50%" height="50%"></div>
+<div data-role="content" align="right">
+<img src="imagenes/frances.jpg" width="50%" height="50%"></div>
+</div>
+
+<div data-role="footer" data-theme="a">
+<h4>Aplicacion Dos</h4>
+<h4> Miguel Naranjo Flores</h4>
+</div>
+</div>
+</div>
+
+</body>
+</html>
